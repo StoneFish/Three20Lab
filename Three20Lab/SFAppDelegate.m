@@ -8,20 +8,11 @@
 
 #import "SFAppDelegate.h"
 
-#import "SFTableCellLabViewController.h"
-
 @implementation SFAppDelegate
 
 -(void)applicationDidFinishLaunching:(UIApplication *)application
 {
-    TTNavigator * navigator = [TTNavigator navigator];
-    TTURLMap * map = navigator.URLMap;
     
-    [map from:@"tt://TableCellLabViewController" toViewController:[SFTableCellLabViewController class]];
-    
-    if (![navigator restoreViewControllers]) {
-        [navigator openURLAction:[TTURLAction actionWithURLPath:@"tt://TableCellLabViewController"]];
-    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -27,7 +27,6 @@
 		B3A29E3C15F3775100B290BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A29E2315F3775000B290BA /* Foundation.framework */; };
 		B3A29E4415F3775100B290BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3A29E4215F3775100B290BA /* InfoPlist.strings */; };
 		B3A29E4715F3775100B290BA /* Three20LabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A29E4615F3775100B290BA /* Three20LabTests.m */; };
-		B3A29ED915F3817B00B290BA /* SFTableCellLabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A29ED815F3817B00B290BA /* SFTableCellLabViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,8 +212,6 @@
 		B3A29E4315F3775100B290BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B3A29E4515F3775100B290BA /* Three20LabTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Three20LabTests.h; sourceTree = "<group>"; };
 		B3A29E4615F3775100B290BA /* Three20LabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Three20LabTests.m; sourceTree = "<group>"; };
-		B3A29ED715F3817B00B290BA /* SFTableCellLabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTableCellLabViewController.h; sourceTree = "<group>"; };
-		B3A29ED815F3817B00B290BA /* SFTableCellLabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTableCellLabViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,18 +392,8 @@
 		B3A29ED515F3812800B290BA /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				B3A29ED615F3812800B290BA /* TableCells */,
 			);
 			path = classes;
-			sourceTree = "<group>";
-		};
-		B3A29ED615F3812800B290BA /* TableCells */ = {
-			isa = PBXGroup;
-			children = (
-				B3A29ED715F3817B00B290BA /* SFTableCellLabViewController.h */,
-				B3A29ED815F3817B00B290BA /* SFTableCellLabViewController.m */,
-			);
-			path = TableCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -657,7 +644,6 @@
 			files = (
 				B3A29E2E15F3775100B290BA /* main.m in Sources */,
 				B3A29E3215F3775100B290BA /* SFAppDelegate.m in Sources */,
-				B3A29ED915F3817B00B290BA /* SFTableCellLabViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
